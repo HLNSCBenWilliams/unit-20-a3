@@ -71,3 +71,28 @@ input:active {
 	border-color: rgb(0, 0, 215);
 	transition: none;
 }
+
+
+a {
+	color: rgb(150, 150, 255);	
+}
+
+a:visited {
+	color:  rgb(120, 120, 200);
+	text-decoration: underline;
+}
+
+.navBar {
+	text-align: center;
+	font-size: 20px;
+	margin: auto;
+	width: 45%;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 15px;
+	border-color: rgb(215, 215, 215);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
