@@ -8,21 +8,21 @@
 
 	<link href="style.css" type="text/css" rel="stylesheet"></link>
 
-	<title>Herefordshire Squash, Tennis and Racketball Centre</title>
+	<title>HerefordShire Squash, Tennis and Racquetball Center</title>
 
 </head>
 
 <body>
 
-	<h1>Herefordshire Squash, Tennis and Racketball Centre</h1>
+	<h1>HerefordShire Squash, Tennis and Racquetball Center</h1>
 
 	<!-- Nav bar -->
-	<div class="navBar">
+	<div class="navBar" id="navBar">
 		
 		<a href="Home.html">Home</a>
 		<a href="Tennis.html">Tennis</a>
 		<a href="Squash.html">Squash</a>
-		<a href="Racketball.html">Racketball</a>
+		<a href="Racketball.html">Racquetball</a>
 		<a href="ContactUs.html">Contact Us</a>
 
 	</div>
@@ -30,9 +30,70 @@
 	<!-- page content -->
 	<div>
 		
-		
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>		
+
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>		
+
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>		
 
 	</div>
+
+	<!-- The Modal -->
+	<div id="questionnaire" class="modal">
+
+		<!-- Modal content -->
+		<div class="modalContent">
+			<div class="modalHeader">
+				<span class="close" id="closeModal">&times;</span>
+				<h2>Modal Header</h2>
+			</div>
+
+			<div class="modalBody">
+				<div class="feedbackForm">
+
+					<form>
+						<label for="feedbackSubject">Feedback</label>
+						<br>
+						<textarea id="subject" name="subject" maxlength="300" placeholder="Write something..."></textarea>
+
+					</form>
+
+				</div>
+			</div>
+
+			<div class="modalFooter">
+				<h2>Modal Footer</h2>
+				<button class="submitQuestionnaire" id="submitQuestionnaire" onclick="submitQuestionnaire()">Submit</button>
+			</div>
+		</div>
+	</div> 
+
+	<footer>
+	 	<!-- Trigger/Open The Modal -->
+		<button id="openModal" onclick="OpenModal()">Feedback</button>
+
+	</footer>
 
 </body>
 
